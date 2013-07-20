@@ -1,18 +1,18 @@
 %global packname RcppArmadillo
 %global rlibdir %{_libdir}/R/library
 
-Name: R-%{packname}
-Version: 0.3.900.0
-Release: 1
-Summary: Rcpp integration for Armadillo templated linear algebra library
-Group: Sciences/Mathematics
-License: GPLv2+
-URL: http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0: http://cran.r-project.org/src/contrib/%{packname}_0.3.900.0.tar.gz
-Requires: R-Rcpp >= 0.10.2 R-inline R-RUnit
-BuildRequires: R-devel Rmath-devel texlive-collection-latex
-BuildRequires: R-Rcpp >= 0.10.2 R-inline R-RUnit
-BuildRequires: liblapack-devel
+Name:             R-%{packname}
+Version:          0.3.900.0
+Release:          1
+Summary:          Rcpp integration for Armadillo templated linear algebra library
+Group:            Sciences/Mathematics
+License:          GPLv2+
+URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.3.900.0.tar.gz
+Requires:         R-Rcpp >= 0.10.2 R-inline R-RUnit
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Rcpp >= 0.10.2 R-inline R-RUnit
+BuildRequires:    liblapack-devel
 
 %description
 R and Armadillo integration using Rcpp Armadillo is a
